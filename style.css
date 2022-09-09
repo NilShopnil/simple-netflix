@@ -1,0 +1,117 @@
+/*# sourceMappingURL=style.css.map */
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.tv-section{
+    background: #000000;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    border-bottom: 8px solid #222222;
+}
+.tv__container{
+    max-width: 1200px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tv__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tv__left-content{
+    flex: 0 1 auto;
+    height: 100%;
+    padding: 0 3rem 0 0;
+    width: 50%;
+    z-index: 3;
+}
+
+.tv__enjoy-text{
+    color: white;
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+
+    
+}
+.tv__watch-text{
+    color: white;
+    margin: -5% 0;
+    font-size: 1.625rem;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.tv__right-content{
+    width: 50%;
+}
+.tv__right-content img{
+    height: 370px;
+    width: 475px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.download__section{
+    background: #000000;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    border-bottom: 8px solid #222222;
+}
+.download__container{
+    max-width: 1200px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.download__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.download__left-content{
+    width: 48%;
+    height: 100%;
+}
+.tv-picture{
+    border: 0;
+    width: 100%;
+    height: auto;
+}
+.download__right-content{
+    width: 52%;
+    padding: 0 0 0 3rem;
+}
+.download-text{
+    color: white;
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+
+}
+.download__save-text{
+    color: white;
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+
+/*for video
+    height: 100%;
+    left: 50%;
+    max-height: 54%;
+    max-width: 73%;
+    position: absolute;
+    top: 46%;
+    transform: translate(-50%,-50%);
+    width: 100%;*/
